@@ -3,7 +3,7 @@ pragma solidity 0.6.9;
 pragma experimental ABIEncoderV2;
 
 import { BaseBridge, IAMB, IMultiTokenMediator, IERC20 } from "../BaseBridge.sol";
-import { BaseRelayRecipient } from "@opengsn/gsn/contracts/BaseRelayRecipient.sol";
+import { BaseRelayRecipient } from "@opengsn/contracts/src/BaseRelayRecipient.sol";
 import { ContextUpgradeSafe } from "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol";
 import { Decimal } from "../../utils/Decimal.sol";
 
